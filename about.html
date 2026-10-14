@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="wrap-1">
+        <div class="container">
+            <header>
+                <div class="row align-items">
+                    <div class="col-2 col-m-6">
+                        <h1><a href="">Brand</a></h1>
+                    </div>
+                    <div class="col-10 col-m-6">
+                        <button title="menu" class="menu"><span></span><span></span><span></span></button>
+                        <nav class="flex justift-right">
+                            <ul class="flex">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="expertise.html">Expertise</a></li>
+                                <li><a href="clients.html">Clients</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+
+                        </nav>
+
+                    </div>
+            </header>
+        </div>
+    </div>
+    <div class="wrap-2">
+        <div class="container About-info">
+            <div class="text-center">
+                <h2>About US</h2>
+                <p>Get to know about our company</p>
+            </div>
+            <div class="row align-items about">
+                <div class="col-6 col-m-12 ">
+                    <h1>Our story</h1>
+                    <p>
+                        FIRST WEB started as a small idea — to build a space where aspiring web
+                        developers could learn, share, and grow together. What began as a
+                        simple learning project has become a creative community focused on
+                        design, development, and innovation.
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                        We aim to make technology simple and accessible for everyone. Whether
+                        you're a beginner or an experienced coder, our goal is to help you
+                        explore the digital world with confidence.
+                    </p>
+                </div>
+                <div class="col-6 col-m-12 order-m-1">
+                    <img src="img/about.webp" srcset="img/about-2x.webp" alt=" About" width="582" height="478"
+                        class="img-resp">
+                </div>
+            </div>
+            <div class="info row text-center">
+                <div class="col-3 col-t-6 col-p-12">
+                    <b>782</b>
+                    <p>WORLDWIDE CUSTOMERS</p>
+                </div>
+                <div class="col-3 col-t-6 col-p-12">
+                    <b>12K</b>
+                    <p>PROJECTS DONE</p>
+                </div>
+                <div class="col-3 col-t-6 col-p-12">
+                    <b>5,896</b>
+                    <p>IT PROJECTS</p>
+                </div>
+                <div class="col-3 col-t-6 col-p-12">
+                    <b>&dollar; 890 K</b>
+                    <p>PROJECTS SPEND</p>
+                </div>
+            </div>
+            <div class="row about">
+                <div class=" col-6 col-m-12 ">
+                    <h3>Our mission</h3>
+                    <p>
+                        To create a vibrant online community for developers and designers,
+                        where learning is collaborative and innovation never stops.
+                    </p>
+                </div>
+                <div class="col-6 col-m-12">
+                    <h3>Our Vision</h3>
+                    <p>
+                        To become a trusted hub for tech enthusiasts, connecting ideas and
+                        talent to shape the future of web technology.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="wrap-3">
+        <div class="container">
+            <div class="row ">
+                <div class="col-3 col-p-6 ">
+                    Digital experience is always embedded in a physical experience.
+                </div>
+                <div class="col-1 col-t-hide" role="separator"></div>
+                <div class="col-2 col-p-6">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Hosting</a></li>
+                        <li><a href="#">Domains</a></li>
+                        <li><a href="#">Premium Hosting</a></li>
+                        <li><a href="#">Private Server</a></li>
+                        <li><a href="#">E-mail Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-1 col-t-hide" role="separator"></div>
+                <div class="col-2 col-p-4 ">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-p-8">
+                    <h3>Contact us</h3>
+                    <p><a href="">emailaddress@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="flex">
+                <p>Design with &nbsp; <span>&hearts;</span> &copy; &nbsp; Ritesh 2025, All right reserved</p>
+                <p> Claim Privacy Terms</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script>
+        $(function () {
+            $(".menu").click(function () {
+                $("nav").slideToggle();
+                $(this).toggleClass("active");
+            });
+        })
+    </script>
+</body>
+
+</html>
